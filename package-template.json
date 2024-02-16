@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "start": "yff --minify --reload",
+        "style": "prettier frontend/views --write",
+        "lint": "tsc"
+    },
+    "browserslist": [
+        "last 13 versions",
+        "not dead"
+    ],
+    "devDependencies": {
+        "prettier": "3.1.1",
+        "prettier-plugin-css-order": "2.0.1",
+        "prettier-plugin-jsdoc": "1.3.0",
+        "typescript": "5.3.3",
+        "yff": "0.1.0"
+    },
+    "engines": {
+        "node": ">=21"
+    }
+}

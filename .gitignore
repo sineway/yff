@@ -9,6 +9,9 @@
 # netbeans project files
 nbproject
 
+# sublime project files
+*.sublime-*
+
 # zend studio for eclipse project files
 .buildpath
 .project
@@ -41,3 +44,7 @@ phpunit.phar
 /backend/web/index.php
 /backend/web/index-test.php
 /backend/web/robots.txt
+
+# yii front-end foundation
+/node_modules
+/frontend/web/bundles
