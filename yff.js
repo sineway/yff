@@ -178,7 +178,6 @@ async function watch() {
 
 async function init() {
     const whitelist = [
-        '.npmrc',
         '.prettierrc.json',
         'package-template.json',
         'tsconfig.json'

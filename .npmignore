@@ -1,5 +1,4 @@
 *
-!.npmrc
 !.prettierrc.json
 !package-template.json
 !tsconfig.json
