@@ -18,6 +18,7 @@ import chalk from 'chalk';
 import fs from 'fs-extra';
 
 const outputDir = 'frontend/web/bundles';
+const browsers = 'last 13 versions and not dead';
 const port = Math.floor(8000 + 100 * Math.random());
 
 /**
@@ -36,7 +37,8 @@ const cssOptions = {
             plugins: [
                 postcssImport,
                 postcssPresetEnv({
-                    preserve: false
+                    preserve: false,
+                    browsers
                 })
             ]
         })
@@ -71,7 +73,8 @@ const jsOptions = {
     plugins: [
         rollupBabel({
             presets: ['@babel/preset-env'],
-            babelHelpers: 'bundled'
+            babelHelpers: 'bundled',
+            browserslistEnv: browsers
         }),
         ...(ps.argv.includes('--minify')
             ? [

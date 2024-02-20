@@ -6,10 +6,6 @@
         "style": "prettier frontend/views --write",
         "lint": "tsc"
     },
-    "browserslist": [
-        "last 13 versions",
-        "not dead"
-    ],
     "devDependencies": {
         "prettier": "3.1.1",
         "prettier-plugin-css-order": "2.0.1",

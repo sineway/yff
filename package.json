@@ -9,10 +9,6 @@
         "style": "prettier frontend/views --write",
         "lint": "tsc"
     },
-    "browserslist": [
-        "last 13 versions",
-        "not dead"
-    ],
     "dependencies": {
         "@babel/preset-env": "7.23.9",
         "@rollup/plugin-babel": "6.0.4",
