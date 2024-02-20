@@ -1,34 +1,22 @@
 Preconfigured CSS/JS bundler for Yii2 projects based on advanced template
 
-## Usage
-
-1. Create new project
-
 ```sh
+# USAGE
+
+# 1. Create new project
 composer create-project --prefer-dist yiisoft/yii2-app-advanced my-site
-cd my-site && php init # chose 0
-```
+cd my-site
+php init
 
-2. Install `yff`
-
-```sh
+# 2. Install bundler
 npm install yff
-```
 
-3. Create environment files
-
-```sh
+# 3. Create environment files
 npx yff --init
-```
 
-4. Complete installation
-
-```sh
+# 4. Complete installation
 npm install
-```
 
-5. Start development server
-
-```sh
+# 5. Start development server
 npm start
 ```
