@@ -199,7 +199,7 @@ async function init() {
         ${chalk.bold('well done')}
 
         ${chalk.yellow('➜')} add ${chalk.dim('/node_modules')} to .gitignore
-        ${chalk.yellow('➜')} run ${chalk.dim('npm ci')} to complete installation
+        ${chalk.yellow('➜')} run ${chalk.dim('npm i')} to complete installation
     `);
 }
 
