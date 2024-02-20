@@ -1,0 +1,5 @@
+h1::before {
+    content: 'CSS works!';
+    display: block;
+    font-weight: 900;
+}

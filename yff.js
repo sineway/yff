@@ -181,6 +181,9 @@ async function watch() {
 
 async function init() {
     const whitelist = [
+        'frontend/assets/AppAsset.php',
+        'frontend/views/layouts/main-template.css',
+        'frontend/views/layouts/main-template.js',
         '.prettierrc.json',
         'package-template.json',
         'tsconfig.json'
@@ -201,8 +204,8 @@ async function init() {
     log(`
         ${chalk.bold('well done')}
 
-        ${chalk.yellow('➜')} add ${chalk.dim('/node_modules')} to .gitignore
         ${chalk.yellow('➜')} run ${chalk.dim('npm i')} to complete installation
+        ${chalk.yellow('➜')} run ${chalk.dim('npm start')}
     `);
 }
 

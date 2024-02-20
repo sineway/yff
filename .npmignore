@@ -1,4 +1,7 @@
 *
+!frontend/assets/AppAsset.php
+!frontend/views/layouts/main-template.css
+!frontend/views/layouts/main-template.js
 !.prettierrc.json
 !package-template.json
 !tsconfig.json
