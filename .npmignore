@@ -1,4 +1,5 @@
 *
+!cli/*
 !frontend/assets/AppAsset.php
 !frontend/views/layouts/main-template.css
 !frontend/views/layouts/main-template.js

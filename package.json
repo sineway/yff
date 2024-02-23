@@ -4,6 +4,7 @@
     "version": "0.1.3",
     "author": "Sineway <sineway@ya.ru>",
     "type": "module",
+    "bin": "yff.js",
     "scripts": {
         "start": "node yff --minify --reload",
         "style": "prettier frontend/views --write",
