@@ -7,15 +7,15 @@
  *     serve: {dir: string};
  * }} config
  */
-export default (config) => {
-    config.clean.dir = 'frontend/web/bundles';
+export default ({clean, css, js, watch, serve}) => {
+    clean.dir = 'frontend/web/bundles';
 
-    config.css.input = 'frontend/views/layouts/main.css';
-    config.css.output.file = 'frontend/web/bundles/main.css';
+    css.input = 'frontend/views/layouts/main.css';
+    css.output.file = 'frontend/web/bundles/main.css';
 
-    config.js.input = 'frontend/views/layouts/main.js';
-    config.js.output.file = 'frontend/web/bundles/main.js';
+    js.input = 'frontend/views/layouts/main.js';
+    js.output.file = 'frontend/web/bundles/main.js';
 
-    config.watch.dir = 'frontend/{assets,views}';
-    config.serve.dir = 'frontend/web';
+    watch.dir = 'frontend/{assets,views}';
+    serve.dir = 'frontend/web';
 };
