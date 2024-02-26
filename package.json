@@ -1,7 +1,7 @@
 {
     "name": "yff",
     "description": "Yii front-end foundation",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": "Sineway <sineway@ya.ru>",
     "type": "module",
     "bin": {
