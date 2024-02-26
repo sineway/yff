@@ -7,6 +7,7 @@ const files = [
     'frontend/views/layouts/main-template.css',
     'frontend/views/layouts/main-template.js',
     '.prettierrc.json',
+    'build.setup-template.js',
     'package-template.json',
     'tsconfig.json',
 ];
