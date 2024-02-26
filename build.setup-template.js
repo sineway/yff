@@ -1,5 +1,11 @@
 /**
- * @param {import('yff/cli/config.js').default} config
+ * @param {{
+ *     clean: {dir: string};
+ *     css: import('rollup').RollupOptions;
+ *     js: import('rollup').RollupOptions;
+ *     watch: {dir: string};
+ *     serve: {dir: string};
+ * }} config
  */
 export default (config) => {
     config.clean.dir = 'frontend/web/bundles';
