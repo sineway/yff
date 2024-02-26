@@ -1,6 +1,6 @@
 {
     "name": "yff",
-    "description": "CSS/JS bundler for Yii2 projects based on advanced template",
+    "description": "Yii front-end foundation",
     "version": "0.2.0",
     "author": "Sineway <sineway@ya.ru>",
     "type": "module",
