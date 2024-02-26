@@ -1,5 +1,6 @@
 {
-    "include": ["frontend/assets", "frontend/views", "yii.js"],
+    "include": ["frontend"],
+    "exclude": ["frontend/web"],
 
     "compilerOptions": {
         "allowJs": true,
