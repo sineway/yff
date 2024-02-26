@@ -3,7 +3,7 @@
     "type": "module",
     "scripts": {
         "start": "yff --minify --reload",
-        "style": "prettier frontend/views --write",
+        "style": "prettier frontend/{assets,views} --write",
         "lint": "tsc"
     },
     "devDependencies": {
