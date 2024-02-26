@@ -3,18 +3,13 @@ Simple CSS/JS bundler for Yii2 projects.
 ## Install
 
 ```sh
-# 1. Create Yii2 project
+# Create Yii2 project
 composer create-project --prefer-dist yiisoft/yii2-app-advanced my-site
 cd my-site
 php init
 
-# 2. Install bundler
-npm install yff
-
-# 3. Create environment files
+# Install bundler
 npx yff --init
-
-# 4. Complete installation
 npm install
 ```
 
@@ -48,6 +43,7 @@ export default ({clean, css, js, watch, serve}) => {
     serve.dir = 'frontend/web';
 };
 ```
+
 Other configuration files:
 - [.prettierrc.json](https://prettier.io/docs/en/configuration.html) (formatting)
 - [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) (type checking)
