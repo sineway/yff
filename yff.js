@@ -2,11 +2,11 @@
 
 import ps from 'node:process';
 
-import init from './cli/init.js';
-import clean from './cli/clean.js';
-import build from './cli/build.js';
-import serve from './cli/serve.js';
-import watch from './cli/watch.js';
+import init from './lib/init.js';
+import clean from './lib/clean.js';
+import build from './lib/build.js';
+import serve from './lib/serve.js';
+import watch from './lib/watch.js';
 
 if (ps.argv.includes('--init')) {
     await init();
