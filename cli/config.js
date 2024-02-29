@@ -8,7 +8,7 @@ import postcss from 'rollup-plugin-postcss';
 import postcssImport from 'postcss-import';
 import postcssPresetEnv from 'postcss-preset-env';
 
-const browserslist = 'last 13 versions and not dead';
+const browserslist = '> 0.2% and not dead';
 
 const config = {
     clean: {
