@@ -8,7 +8,6 @@
         "yff": "yff.js"
     },
     "scripts": {
-        "start": "node yff --minify --reload",
         "style": "prettier frontend/views --write",
         "lint": "tsc"
     },
