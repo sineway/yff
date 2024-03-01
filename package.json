@@ -3,7 +3,10 @@
     "description": "Yii front-end foundation",
     "version": "0.3.1",
     "author": "Sineway <sineway@ya.ru>",
-    "repository": "github:sineway/yff",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sineway/yff.git"
+    },
     "type": "module",
     "bin": {
         "yff": "index.js"
