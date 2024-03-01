@@ -5,7 +5,7 @@
     "author": "Sineway <sineway@ya.ru>",
     "type": "module",
     "bin": {
-        "yff": "yff.js"
+        "yff": "index.js"
     },
     "scripts": {
         "style": "prettier frontend/views --write",
