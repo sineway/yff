@@ -28,7 +28,7 @@ npm run lint
 
 ## Config
 
-The `build.setup.js` can be used to override paths:
+The `build.config.js` can be used to override paths:
 ```js
 export default ({clean, css, js, watch, serve}) => {
     clean.dir = 'frontend/web/bundles';
