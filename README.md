@@ -1,4 +1,4 @@
-Simple CSS/JS bundler for Yii2 projects.
+Simple CSS/JS bundler for Yii2 projects
 
 ## Install
 
@@ -28,7 +28,7 @@ npm run lint
 
 ## Config
 
-The `build.setup.js` can be used to override paths.
+The `build.setup.js` can be used to override paths:
 ```js
 export default ({clean, css, js, watch, serve}) => {
     clean.dir = 'frontend/web/bundles';
@@ -45,5 +45,6 @@ export default ({clean, css, js, watch, serve}) => {
 ```
 
 Other configuration files:
+- `package.json` (scripts and browserslist)
 - [.prettierrc.json](https://prettier.io/docs/en/configuration.html) (formatting)
 - [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) (type checking)
