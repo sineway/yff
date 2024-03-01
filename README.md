@@ -29,6 +29,7 @@ npm run lint
 ## Config
 
 The `build.config.js` can be used to override paths:
+
 ```js
 export default ({clean, css, js, watch, serve}) => {
     clean.dir = 'frontend/web/bundles';
@@ -45,6 +46,7 @@ export default ({clean, css, js, watch, serve}) => {
 ```
 
 Other configuration files:
-- `package.json` (scripts and browserslist)
-- [.prettierrc.json](https://prettier.io/docs/en/configuration.html) (formatting)
-- [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) (type checking)
+
+-   `package.json` (scripts and browserslist)
+-   [.prettierrc.json](https://prettier.io/docs/en/configuration.html) (formatting)
+-   [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) (type checking)
