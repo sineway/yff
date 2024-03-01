@@ -1,6 +1,5 @@
 {
-    "include": ["frontend"],
-    "exclude": ["frontend/web"],
+    "exclude": ["templates"],
 
     "compilerOptions": {
         "allowJs": true,

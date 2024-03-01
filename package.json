@@ -9,7 +9,7 @@
         "yff": "index.js"
     },
     "scripts": {
-        "style": "prettier frontend/views --write",
+        "style": "prettier . --write",
         "lint": "tsc"
     },
     "dependencies": {
