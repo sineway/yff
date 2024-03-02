@@ -4,7 +4,7 @@
  *     css: import('rollup').RollupOptions;
  *     js: import('rollup').RollupOptions;
  *     serve: {dir: string};
- *     watch: {files: string};
+ *     watch: {dir: string; files: string};
  * }} config
  */
 export default ({clean, css, js, serve, watch}) => {
