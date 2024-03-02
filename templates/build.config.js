@@ -3,11 +3,11 @@
  *     clean: {dir: string};
  *     css: import('rollup').RollupOptions;
  *     js: import('rollup').RollupOptions;
- *     watch: {dir: string};
  *     serve: {dir: string};
+ *     watch: {files: string};
  * }} config
  */
-export default ({clean, css, js, watch, serve}) => {
+export default ({clean, css, js, serve, watch}) => {
     clean.dir = 'frontend/web/bundles';
 
     css.input = 'frontend/views/layouts/main.css';
@@ -16,6 +16,6 @@ export default ({clean, css, js, watch, serve}) => {
     js.input = 'frontend/views/layouts/main.js';
     js.output.file = 'frontend/web/bundles/main.js';
 
-    watch.dir = 'frontend/{assets,views}';
     serve.dir = 'frontend/web';
+    watch.files = 'frontend/{assets,views}/**/*.{php,svg}';
 };
