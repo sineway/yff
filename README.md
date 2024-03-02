@@ -41,7 +41,9 @@ export default ({clean, css, js, serve, watch}) => {
     js.output.file = 'frontend/web/bundles/main.js';
 
     serve.dir = 'frontend/web';
-    watch.files = 'frontend/{assets,views}/**/*.{php,svg}';
+
+    watch.dir = 'frontend/{assets,views}';
+    watch.files = '**/*.{php,svg}';
 };
 ```
 
