@@ -31,7 +31,7 @@ npm run lint
 The `build.config.js` can be used to override paths:
 
 ```js
-export default ({clean, css, js, watch, serve}) => {
+export default ({clean, css, js, serve, watch}) => {
     clean.dir = 'frontend/web/bundles';
 
     css.input = 'frontend/views/layouts/main.css';
@@ -40,8 +40,8 @@ export default ({clean, css, js, watch, serve}) => {
     js.input = 'frontend/views/layouts/main.js';
     js.output.file = 'frontend/web/bundles/main.js';
 
-    watch.dir = 'frontend/{assets,views}';
     serve.dir = 'frontend/web';
+    watch.files = 'frontend/{assets,views}/**/*.{php,svg}';
 };
 ```
 
