@@ -5,6 +5,7 @@
  *     js: import('rollup').RollupOptions;
  *     serve: {dir: string};
  *     watch: {dir: string; files: string};
+ *     proxy?: import('browser-sync').Options;
  * }} config
  */
 export default ({clean, css, js, serve, watch}) => {
