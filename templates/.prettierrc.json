@@ -6,7 +6,11 @@
     "quoteProps": "consistent",
     "trailingComma": "es5",
     "bracketSpacing": false,
-    "plugins": ["prettier-plugin-css-order", "prettier-plugin-jsdoc"],
+    "plugins": [
+        "@prettier/plugin-php",
+        "prettier-plugin-css-order",
+        "prettier-plugin-jsdoc"
+    ],
     "cssDeclarationSorterOrder": "alphabetical",
     "jsdocCommentLineStrategy": "multiline"
 }
