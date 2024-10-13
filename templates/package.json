@@ -3,11 +3,11 @@
     "type": "module",
     "scripts": {
         "start": "yff --minify --reload",
-        "style": "prettier frontend/{assets,views} --write",
+        "style": "prettier frontend/{controllers,models,views} --check",
         "lint": "tsc"
     },
     "browserslist": [
-        ">0.2% and not dead"
+        "> 0.2% and not dead"
     ],
     "devDependencies": {
         "@prettier/plugin-php": "0.22.2",
