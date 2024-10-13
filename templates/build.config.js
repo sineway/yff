@@ -9,16 +9,15 @@
  * }} config
  */
 export default ({clean, css, js, serve, watch}) => {
+    serve.dir = 'frontend/web';
     clean.dir = 'frontend/web/bundles';
 
     css.input = 'frontend/views/layouts/main.css';
-    css.output.file = 'frontend/web/bundles/main.css';
+    css.output.dir = clean.dir;
 
     js.input = 'frontend/views/layouts/main.js';
-    js.output.file = 'frontend/web/bundles/main.js';
+    js.output.dir = clean.dir;
 
-    serve.dir = 'frontend/web';
-
-    watch.dir = 'frontend/{assets,views}';
-    watch.files = '**/*.{php,svg}';
+    watch.dir = 'frontend/{controllers,models,views}';
+    watch.files = '**/*.{php,html,svg}';
 };
